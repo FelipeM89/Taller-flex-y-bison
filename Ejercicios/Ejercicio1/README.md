@@ -10,6 +10,7 @@ Como los comentarios se eliminan en Flex, lo que queda es efectivamente una lín
 En concluscion solo es posible con ayuda del parser lo que hace que el parser sea el resposable de esta modificacion 
 
 Resumen del ejercicio
+
 Objetivo:
 Hacer una calculadora sencilla con Flex + Bison que acepte líneas que solo contengan un comentario sin que se produzca un error.
 
