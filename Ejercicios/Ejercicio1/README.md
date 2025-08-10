@@ -5,3 +5,4 @@ En cambio, cuando la calculadora trabaja junto con Bison (Flex + Bison), es posi
 Como los comentarios se eliminan en Flex, lo que queda es efectivamente una línea vacía; el parser puede reconocer esto como una entrada permitida y continuar funcionando sin error.
 
 En concluscion solo es posible con ayuda del parser lo que hace que el parser sea el resposable de esta modificacion 
+Este es un texto normal y aquí <span style="font-size:24px">PALABRA GRANDE</span> en medio.
