@@ -6,22 +6,31 @@ La calculadora realiza operaciones aritméticas básicas y muestra el resultado 
 ## Cómo lo hicimos
 
 1. Modificación del scanner (ejercicio2.l)
+   
 Se añadió un patrón para reconocer números hexadecimales:
 
 "0x"[0-9a-fA-F]+
+
 -Se usa strtol(yytext, NULL, 16) para convertir el texto en número entero en base 16.
+
 -Se mantiene el patrón original para números decimales usando atoi.
+
 -Se definieron tokens para operadores + - * / | ( ) y saltos de línea.
 
+
 2. Modificación del parser (ejercicio2.y)
+
 -Se añadieron las reglas gramaticales para operaciones con la misma lógica que la calculadora original.
 
 
 -En la regla que imprime el resultado se formatea la salida:
+
 printf("= %d (0x%X)\n", $2, $2);
+
 Mostrando el resultado en decimal y hexadecimal.
 
 3. Compilación y enlace
+
 -Se creó un Makefile que ejecuta:
 
 bison -d ejercicio2.y → genera ejercicio2.tab.c y ejercicio2.tab.h.
