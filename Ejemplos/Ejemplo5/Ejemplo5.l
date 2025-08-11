@@ -18,5 +18,10 @@
 
 %%
 
-int yywrap(void) { return 1; }
+int main(int argc, char **argv)
+{
+  yylex();
+  printf("%8d%8d%8d\n", lines, words, chars);
+}
+int yywrap(void){return 1;}
 
