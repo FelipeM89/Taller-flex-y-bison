@@ -62,7 +62,7 @@ El scanner manual puede reconocer los mismos tokens que el de Flex si está impl
 
 - Errores u omisiones en el reconocimiento de tokens.
 
-- Ausencia de la política de maximal munch propia de Flex.
+
 
 Por lo tanto, salvo que el scanner manual replique con precisión la lógica del de Flex, no reconocerá exactamente los mismos tokens.
 
