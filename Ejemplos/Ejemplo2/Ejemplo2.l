@@ -8,7 +8,10 @@
 
 . { printf("%s", yytext); }
 %%
-int main() {
-yylex;
+int main(int argc, char **argv) {
+yylex();
 return 0;
 }
+
+int yywrap(void{ return 1;}
+
