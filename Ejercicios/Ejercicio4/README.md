@@ -23,7 +23,8 @@ En el Ejemplo 1-4, el scanner manual y el scanner de Flex buscan reconocer token
 
 #### Diferencias clave
 1. Método de reconocimiento
--- Manual:
+
+-Manual:
 
 -Implementado en C puro, leyendo carácter por carácter.
 
@@ -31,7 +32,7 @@ En el Ejemplo 1-4, el scanner manual y el scanner de Flex buscan reconocer token
 
 -Mayor riesgo de omitir casos o de variar en el momento en que se detecta un token.
 
--- Flex:
+-Flex:
 
 - Usa expresiones regulares para definir patrones.
 
