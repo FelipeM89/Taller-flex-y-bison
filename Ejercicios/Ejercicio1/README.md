@@ -19,6 +19,7 @@ Lo que hace el programa
 -Ignora espacios y saltos de línea vacíos.
 
 Cómo lo logramos
+
 1.En Flex (calc.l):
 
 -Creamos una regla para detectar comentarios:
