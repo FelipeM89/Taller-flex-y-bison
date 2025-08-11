@@ -10,3 +10,9 @@
 [ \t] { }
 . { printf("Mystery character %s\n", yytext); }
 %%
+int main(int argc, char **argv) {
+yylex();
+return 0;
+}
+
+int yywrap(void{ return 1;}
