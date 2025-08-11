@@ -1,4 +1,5 @@
 #SOLUCION
+
 ¿La calculadora aceptará una línea que contenga solo un comentario? ¿Por qué sí o por qué no?
 ¿Es más fácil corregirlo en el scanner o en el parser?      
 
