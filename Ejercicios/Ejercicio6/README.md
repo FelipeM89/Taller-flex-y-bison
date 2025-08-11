@@ -91,8 +91,7 @@ Compilar versión Flex:
 <img width="383" height="43" alt="Screenshot From 2025-08-11 10-55-37" src="https://github.com/user-attachments/assets/c547ca52-c64a-4d67-b431-459754a9f651" />
 
 
-
-
+---
 
 <img width="403" height="49" alt="Screenshot From 2025-08-11 10-55-46" src="https://github.com/user-attachments/assets/9764ee59-62bc-4356-aea0-3093b9329048" />
 
