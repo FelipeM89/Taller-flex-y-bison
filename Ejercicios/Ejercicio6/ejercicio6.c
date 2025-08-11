@@ -8,15 +8,16 @@ int main(int argc, char *argv[]) {
     int in_word = 0;
     FILE *fp;
 
-    if (argc < 2) {
-        fprintf(stderr, "Uso: %s archivo\n", argv[0]);
-        return 1;
-    }
-
-    fp = fopen(argv[1], "r");
-    if (!fp) {
-        perror("Error al abrir archivo");
-        return 1;
+    // Abrir archivo si se pasa como argumento
+    if (argc >= 2) {
+        fp = fopen(argv[1], "r");
+        if (!fp) {
+            perror("Error al abrir archivo");
+            return 1;
+        }
+    } else {
+        // Leer de stdin si no se pasa argumento
+        fp = stdin;
     }
 
     int c;
@@ -36,7 +37,10 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    fclose(fp);
+    if (fp != stdin) {
+        fclose(fp);
+    }
+
     printf("%8d %8d %8d\n", lines, words, chars);
     return 0;
 }
