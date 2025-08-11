@@ -1,7 +1,6 @@
 # SOLUCION
 
-¿La calculadora aceptará una línea que contenga solo un comentario? ¿Por qué sí o por qué no?
-¿Es más fácil corregirlo en el scanner o en el parser?      
+## ¿La calculadora aceptará una línea que contenga solo un comentario? ¿Por qué sí o por qué no? ¿Es más fácil corregirlo en el scanner o en el parser?      
 
 La calculadora implementada solo con Flex no puede aceptar una línea que contenga únicamente un comentario, porque Flex actúa únicamente como analizador léxico: detecta patrones y devuelve tokens al parser (o, si no hay parser, directamente ejecuta acciones).
 Cuando Flex encuentra un comentario, normalmente lo ignora y no devuelve ningún token. Esto provoca que, si la línea solo contiene un comentario, el analizador no reciba nada y no se procese la línea.
