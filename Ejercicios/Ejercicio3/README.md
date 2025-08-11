@@ -40,5 +40,28 @@ Se añadió soporte a operadores unarios + y - para permitir expresiones como | 
 Precedencia configurada para que ABS unario tenga prioridad sobre operaciones binarias.
 
 
+Siempre imprime el resultado en decimal y hexadecimal
 
-Siempre imprime el resultado en decimal y hexadecimal:
+### Cómo responde a la pregunta del ejercicio
+
+El problema planteado era que | ya estaba en uso como valor absoluto, pero se quería añadirlo también como OR binario.
+
+### Nuestra solución:
+
+-Usa un solo token PIPE para |.
+
+-El parser analiza el contexto:
+
+ --Si | rodea una expresión → valor absoluto.
+
+ --Si | está entre dos expresiones → OR binario.
+
+-Así se cumple el requisito sin cambiar la sintaxis original y añadiendo la nueva funcionalidad.
+
+✅ Soporta AND y OR binarios.
+✅ Mantiene | como valor absoluto.
+✅ Compatible con decimal y hexadecimal.
+
+## Compilación y ejecución
+
+## Ejemplo de uso
