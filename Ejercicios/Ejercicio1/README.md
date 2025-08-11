@@ -46,6 +46,9 @@ Configuramos la compilación automática con:
 🔹 Resultado final
 
 Ejemplo de ejecución:
+
+
+
 <img width="545" height="163" alt="Screenshot From 2025-08-10 19-13-35" src="https://github.com/user-attachments/assets/3ee76bf9-577d-4ae0-a284-180900568496" />
 
 
