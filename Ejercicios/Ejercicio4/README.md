@@ -26,11 +26,11 @@ En el Ejemplo 1-4, el scanner manual y el scanner de Flex buscan reconocer token
 
 -Manual:
 
--Implementado en C puro, leyendo carácter por carácter.
+- Implementado en C puro, leyendo carácter por carácter.
 
--Depende del orden de las sentencias if/else y bucles.
+- Depende del orden de las sentencias if/else y bucles.
 
--Mayor riesgo de omitir casos o de variar en el momento en que se detecta un token.
+- Mayor riesgo de omitir casos o de variar en el momento en que se detecta un token.
 
 -Flex:
 
