@@ -49,7 +49,7 @@ Ejemplos:
 
 - Aunque Flex puede procesarlos, la simplicidad de sus reglas hace que un scanner manual sea más rápido y directo.
 
-#Respuesta
+# Respuesta
 
 - Flex no es la mejor herramienta para:
 
