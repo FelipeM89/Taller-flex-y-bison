@@ -1,4 +1,4 @@
-# SOLUCION
+# Ejercicio 2 – Calculadora Decimal y Hexadecimal con Flex y Bison
 
 Este ejercicio consiste en modificar la calculadora básica para que soporte tanto números decimales como números hexadecimales (0x...).
 La calculadora realiza operaciones aritméticas básicas y muestra el resultado tanto en decimal como en hexadecimal.
