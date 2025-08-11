@@ -41,7 +41,10 @@ exp:
 factor:
       NUMBER
     | OP exp CP { $$ = $2; }
+    | ADD factor { $$ = $2; }   /* + unario */
+    | SUB factor { $$ = -$2; }  /* - unario */
     ;
+
 
 %%
 
