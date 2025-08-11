@@ -50,6 +50,22 @@ En el Ejemplo 1-4, el scanner manual y el scanner de Flex buscan reconocer token
 
 - Flex puede definir una regla genérica para caracteres desconocidos.
 
+# Respuesta
+
+No necesariamente.
+
+El scanner manual puede reconocer los mismos tokens que el de Flex si está implementado exactamente con la misma lógica, orden de evaluación y manejo de espacios, pero en la práctica es común que existan pequeñas diferencias debido a:
+
+- Manejo distinto del whitespace.
+
+- Diferente política de prioridad en los patrones.
+
+- Errores u omisiones en el reconocimiento de tokens.
+
+- Ausencia de la política de maximal munch propia de Flex.
+
+Por lo tanto, salvo que el scanner manual replique con precisión la lógica del de Flex, no reconocerá exactamente los mismos tokens.
+
 - El manual requiere manejo explícito; si no se implementa, puede producir resultados distintos.
 
 Flex puede definir una regla genérica para caracteres desconocidos.
