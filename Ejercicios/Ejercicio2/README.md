@@ -46,7 +46,7 @@ En una terminal, dentro de la carpeta del proyecto,Esto generará el ejecutable 
 <img width="401" height="101" alt="Screenshot From 2025-08-11 00-40-26" src="https://github.com/user-attachments/assets/c9158f45-6fed-42e4-8df9-7d694afb667f" />
 
 
-Ejecuta el programa:
+Ejecuciòn del programa y ejemplo de salida
 
 <img width="404" height="170" alt="Screenshot From 2025-08-11 00-42-36" src="https://github.com/user-attachments/assets/d9c24bfc-a43c-4c1b-9798-c8c6186ce1b5" />
 
