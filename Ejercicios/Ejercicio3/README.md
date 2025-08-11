@@ -64,4 +64,8 @@ El problema planteado era que | ya estaba en uso como valor absoluto, pero se qu
 
 ## Compilación y ejecución
 
+<img width="411" height="146" alt="Screenshot From 2025-08-11 08-16-46" src="https://github.com/user-attachments/assets/6619a34a-eb79-479d-8ddc-2d9d53a1bcc9" />
+
 ## Ejemplo de uso
+
+<img width="376" height="222" alt="image" src="https://github.com/user-attachments/assets/c837c0a8-d315-41ad-bb93-4afcd45117f1" />
