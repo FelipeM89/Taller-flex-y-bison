@@ -15,3 +15,5 @@ int main(void) {
     printf("%8d %8d %8d\n", lines, words, chars);
     return 0;
 }
+
+int yywrap(void){return 1;}
