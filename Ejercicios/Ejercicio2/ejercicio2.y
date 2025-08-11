@@ -1,6 +1,11 @@
 %{
 #include <stdio.h>
 #include <stdlib.h>
+
+/* Declaraciones necesarias para evitar warnings/errores */
+int yylex(void);
+int yyerror(char *s);
+
 %}
 
 %token NUMBER
